@@ -8,7 +8,13 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I am a MS student in CMU
+Hello! Welcome to personal website. I am a MS student in [Mechanical and AI Lab](https://sites.google.com/view/barati/publications?authuser=0) at Carnegie Mellon University. I am broadly interested in leveraging machine learning as high throughput screening tool for applications such as material design.
+
+
+Research Interests 
+------
+1. Machine Learning 
+2. Computational Material Science
 
 A data-driven personal website
 ======
