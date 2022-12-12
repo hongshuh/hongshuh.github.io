@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Hongshuo Huang / Site Title"
+title                    : "Hongshuo Huang" # site title
 title_separator          : "-"
 name                     : &name "Hongshuo Huang"
 description              : &description "personal description"
@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Hongshuo Huang"
-  avatar           : "profile.png"
+  avatar           : "hhs.png"
   bio              : "Your biography for the left-hand sidebar"
   location         : "Location"
   employer         :
