@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Hongshuo Huang is an interdisciplinary researcher working across **materials science, mechanical engineering, computational physics, high-performance computing, and machine learning**. His work focuses on building AI systems that accelerate materials discovery — from phase-field simulation and density functional theory to transformer models and agentic LLM frameworks.
+Hongshuo Huang's research focus is **AI for Science** — building machine-learning and agentic systems that accelerate scientific discovery. His work is interdisciplinary, spanning **materials science, mechanical engineering, computational physics, high-performance computing, and machine learning** — from phase-field simulation and density functional theory to transformer models and agentic LLM frameworks.
 
 Education
 ======
