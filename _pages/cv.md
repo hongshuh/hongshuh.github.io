@@ -9,51 +9,40 @@ redirect_from:
 
 {% include base_path %}
 
+Hongshuo Huang is an interdisciplinary researcher working across **materials science, mechanical engineering, computational physics, high-performance computing, and machine learning**. His work focuses on building AI systems that accelerate materials discovery — from phase-field simulation and density functional theory to transformer models and agentic LLM frameworks.
+
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* Ph.D. in Mechanical Engineering, University of Michigan, Ann Arbor (2024 – present)
+  * Advisor: Prof. Venkat Viswanathan
+* M.S. in AI Engineering (Materials), Carnegie Mellon University (2022 – 2024)
+  * Mechanical and AI Lab — Advisor: Prof. Amir Barati Farimani
+* B.S. in Materials Science and Engineering, Guangdong Technion–Israel Institute of Technology (2018 – 2022)
+  * Advisor: Prof. Nan Wang
 
-Work experience
+Research Experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* **Graduate Research Assistant**, Viswanathan Group, University of Michigan (2024 – present)
+  * Develop agentic, multi-agent LLM frameworks that plan and execute first-principles materials simulations.
+  * Co-authored DREAMS, a DFT-based research engine coupling an LLM planner with agents for structure generation, convergence testing, and HPC scheduling.
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
+* **Graduate Researcher**, Mechanical and AI Lab, Carnegie Mellon University (2022 – 2024)
+  * Built transformer and language-model approaches for interpretable materials property prediction (MatInFormer).
+  * Developed pretraining strategies for structure-agnostic property prediction and multimodal heat-capacity modeling.
+
+* **Undergraduate Researcher**, Prof. Nan Wang's Group, Guangdong Technion–Israel Institute of Technology (2020 – 2022)
+  * Developed a phase-field model for binary-alloy solidification.
+  * Accelerated simulations using MPI-based parallel computing on high-performance clusters.
+
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* **Machine Learning & AI**: Transformers, large language models, graph neural networks, agentic / multi-agent systems, PyTorch
+* **Computational Materials Science**: Density functional theory (DFT), phase-field modeling, high-throughput screening
+* **High-Performance Computing**: MPI, parallel computing, scalable simulation workflows, HPC job scheduling
+* **Programming**: Python, C/C++, Git, Linux
 
 Publications
 ======
-  <ul>{% for post in site.publications %}
+  <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
